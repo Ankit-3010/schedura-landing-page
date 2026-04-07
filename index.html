@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedura | Manage Bookings Easily</title>
+    <meta name="description"
+        content="Simplify scheduling for your salon, clinic, and pet care business. Say goodbye to manual bookings.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Splash Intro Preloader -->
+    <div id="splash-intro" class="splash-screen">
+        <div class="splash-marquee-container">
+            <div class="splash-marquee">SCHEDURA SCHEDURA SCHEDURA SCHEDURA</div>
+        </div>
+
+        <div class="splash-content">
+            <div class="splash-grid-container">
+                <div class="grid-line h-top"></div>
+                <div class="grid-line h-bottom"></div>
+                <div class="grid-line v-left"></div>
+                <div class="grid-line v-right"></div>
+            </div>
+
+            <div class="splash-center">
+                <div class="splash-icon"></div>
+                <h1 class="splash-brand">SCHEDURA</h1>
+                <div class="splash-tooltip">Schedule your appointment in seconds</div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar hidden-onload fade-up">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Schedura Logo" class="nav-logo">
+            <span class="logo-text">Schedura</span>
+        </div>
+        <div class="audience-toggle">
+            <a href="index.html" class="toggle-btn active">For You</a>
+            <a href="provider.html" class="toggle-btn">For Business</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#context">How it Works</a></li>
+            <li><a href="#cta">About</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                </svg>
+                <svg id="sun-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2" />
+                    <path d="M12 20v2" />
+                    <path d="m4.93 4.93 1.41 1.41" />
+                    <path d="m17.66 17.66 1.41 1.41" />
+                    <path d="M2 12h2" />
+                    <path d="M20 12h2" />
+                    <path d="m6.34 17.66-1.41 1.41" />
+                    <path d="m19.07 4.93-1.41 1.41" />
+                </svg>
+            </button>
+            <a href="#cta" class="btn btn-primary">Get Started</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content hidden-onload fade-up">
+            <h1>Book your next appointment in seconds</h1>
+            <p>Find the best salons, health clinics, and pet care centers near you. Skip the calls and book
+                effortlessly.</p>
+            <div class="hero-cta">
+                <a href="#features" class="btn btn-primary btn-large">Explore Local Spots</a>
+                <a href="#cta" class="btn btn-secondary btn-large">Download App</a>
+            </div>
+        </div>
+        <div class="hero-image hidden-onload fade-up delay-1">
+            <img src="assets/app_ui.png" alt="Schedura platform interface" class="mockup">
+        </div>
+    </header>
+
+    <section id="features" class="features section">
+        <div class="section-title hidden-onload fade-up">
+            <h2>Why book on Schedura?</h2>
+            <p>Everything you need to discover and manage your appointments seamlessly.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card hidden-onload fade-up delay-1">
+                <div class="icon">🔍</div>
+                <h3>Explore Local Spots</h3>
+                <p>Discover top-rated beauty salons, elite clinics, and trusted pet groomers right in your neighborhood.
+                </p>
+            </div>
+            <div class="feature-card hidden-onload fade-up delay-2">
+                <div class="icon">⚡</div>
+                <h3>Instant Confirmation</h3>
+                <p>No waiting for callbacks. Pick your slot, confirm your appointment, and get instant assurance.</p>
+            </div>
+            <div class="feature-card hidden-onload fade-up delay-3">
+                <div class="icon">📅</div>
+                <h3>Easy Rescheduling</h3>
+                <p>Plans changing? Effortlessly cancel, delay, or reschedule your appointments directly through the app.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="context" class="context section">
+        <div class="context-container">
+            <div class="context-image hidden-onload fade-right">
+                <img src="assets/app_ui.png" alt="Client safely booking appointment" class="context-img">
+            </div>
+            <div class="context-text hidden-onload fade-left">
+                <h2>Designed around your life</h2>
+                <p>Whether you're booking a spa day, a regular dental checkup, or a wash for your furry friend, Schedura
+                    makes the process delightful.</p>
+                <ul class="context-list">
+                    <li><span class="check">✓</span> Automatic reminders</li>
+                    <li><span class="check">✓</span> Transparent timings</li>
+                    <li><span class="check">✓</span> Zero hidden fees</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta section hidden-onload fade-up">
+        <h2>Ready to skip the waiting line?</h2>
+        <p>Join thousands of users across India finding the fastest way to book reliable local services.</p>
+        <a href="#get-started" class="btn btn-primary btn-large cta-btn">Download Schedura App</a>
+    </section>
+
+    <section class="section full-image-section hidden-onload fade-up">
+        <img src="assets/lifestyle.png" alt="Schedura Lifestyle Experience">
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand hidden-onload fade-up delay-1">
+                <img src="assets/guidelines.png" alt="Schedura Branding Details"
+                    style="max-width: 250px; border-radius: 10px; margin-bottom: 20px;">
+                <p>The modern appointment scheduling platform for Indian businesses.</p>
+            </div>
+            <div class="footer-links hidden-onload fade-up delay-2">
+                <div class="link-group">
+                    <h4>Company</h4>
+                    <a href="#about">About us</a>
+                    <a href="#careers">Careers</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Schedura. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

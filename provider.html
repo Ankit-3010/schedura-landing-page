@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedura | Manage Bookings Easily</title>
+    <meta name="description"
+        content="Simplify scheduling for your salon, clinic, and pet care business. Say goodbye to manual bookings.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar hidden-onload fade-up">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Schedura Logo" class="nav-logo">
+            <span class="logo-text">Schedura</span>
+        </div>
+        <div class="audience-toggle">
+            <a href="index.html" class="toggle-btn">For You</a>
+            <a href="provider.html" class="toggle-btn active">For Business</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#context">Solutions</a></li>
+            <li><a href="#cta">Pricing</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                </svg>
+                <svg id="sun-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2" />
+                    <path d="M12 20v2" />
+                    <path d="m4.93 4.93 1.41 1.41" />
+                    <path d="m17.66 17.66 1.41 1.41" />
+                    <path d="M2 12h2" />
+                    <path d="M20 12h2" />
+                    <path d="m6.34 17.66-1.41 1.41" />
+                    <path d="m19.07 4.93-1.41 1.41" />
+                </svg>
+            </button>
+            <a href="#cta" class="btn btn-primary">Get Started</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content hidden-onload fade-up">
+            <h1>Effortless bookings for your business</h1>
+            <p>Simplify scheduling for your salon, clinic, and pet care business. Say goodbye to manual bookings.</p>
+            <div class="hero-cta">
+                <a href="#cta" class="btn btn-primary btn-large">Start Free Trial</a>
+                <a href="#features" class="btn btn-secondary btn-large">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image hidden-onload fade-up delay-1">
+            <img src="assets/lifestyle.png" alt="Schedura platform interface" class="mockup">
+        </div>
+    </header>
+
+    <section id="features" class="features section">
+        <div class="section-title hidden-onload fade-up">
+            <h2>Why choose Schedura?</h2>
+            <p>Everything you need to focus on what matters most — your clients.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card hidden-onload fade-up delay-1">
+                <div class="icon">📅</div>
+                <h3>Smart Calendar</h3>
+                <p>Manage all your appointments in one place. Easily view, reschedule, or cancel bookings.</p>
+            </div>
+            <div class="feature-card hidden-onload fade-up delay-2">
+                <div class="icon">🔔</div>
+                <h3>Automated Reminders</h3>
+                <p>Reduce no-shows with automated SMS and email reminders sent directly to your clients.</p>
+            </div>
+            <div class="feature-card hidden-onload fade-up delay-3">
+                <div class="icon">💼</div>
+                <h3>Client Management</h3>
+                <p>Keep track of client history, preferences, and notes to provide personalized experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="context" class="context section">
+        <div class="context-container">
+            <div class="context-image hidden-onload fade-right">
+                <img src="assets/lifestyle.png" alt="Happy client safely booking appointment" class="context-img">
+            </div>
+            <div class="context-text hidden-onload fade-left">
+                <h2>Designed for salons, clinics, and pet care</h2>
+                <p>Whether you're running a busy beauty salon, a specialized healthcare clinic, or a neighborhood pet
+                    grooming center, Schedura adapts to your needs.</p>
+                <ul class="context-list">
+                    <li><span class="check">✓</span> Custom services and timings</li>
+                    <li><span class="check">✓</span> Smooth staff management</li>
+                    <li><span class="check">✓</span> Secure and reliable</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta section hidden-onload fade-up">
+        <h2>Ready to simplify your scheduling?</h2>
+        <p>Join businesses across India that are saving time and building better client relationships with Schedura.</p>
+        <a href="#get-started" class="btn btn-primary btn-large cta-btn">Create your free account</a>
+    </section>
+
+    <section class="section full-image-section hidden-onload fade-up">
+        <img src="assets/lifestyle.png" alt="Schedura Lifestyle Experience">
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand hidden-onload fade-up delay-1">
+                <img src="assets/guidelines.png" alt="Schedura Branding Details"
+                    style="max-width: 250px; border-radius: 10px; margin-bottom: 20px;">
+                <p>The modern appointment scheduling platform for Indian businesses.</p>
+            </div>
+            <div class="footer-links hidden-onload fade-up delay-2">
+                <div class="link-group">
+                    <h4>Company</h4>
+                    <a href="#about">About us</a>
+                    <a href="#careers">Careers</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Schedura. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
